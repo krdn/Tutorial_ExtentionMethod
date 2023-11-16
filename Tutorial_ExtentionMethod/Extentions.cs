@@ -32,7 +32,7 @@ namespace Extensions
 
 
 
-    public static class Enumerable2
+    public static class EnumerableTest
     {
         #nullable enable
         ///// <summary>Applies an accumulator function over a sequence.</summary>
@@ -87,7 +87,7 @@ namespace Extensions
         //    return accumulate;
         //}
 
-        /// <summary>Applies an accumulator function over a sequence. 한글 The specified seed value is used as the initial accumulator value, and the specified function is used to select the result value.</summary>
+        /// <summary>시퀀스에 누산기 기능을 적용합니다. 지정된 시드 값은 초기 누산기 값으로 사용되며 지정된 함수는 결과 값을 선택하는 데 사용됩니다.</summary>
         /// <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1" /> to aggregate over.</param>
         /// <param name="seed">The initial accumulator value.</param>
         /// <param name="func">An accumulator function to be invoked on each element.</param>

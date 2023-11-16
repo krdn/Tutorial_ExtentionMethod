@@ -36,6 +36,8 @@ c.MethodA("hello");     // C.MethodA(object)
 c.MethodB();            // C.MethodB()
 
 
+
+
 string[] fruits = { "apple", "mango", "orange", "passionfruit", "grape" };
 
 // Determine whether any string in the array is longer than "banana".
@@ -52,25 +54,4 @@ Console.WriteLine(
     longestName);
 
 
-
-
-class A : IMyInterface
-{
-    public void MethodB() { Console.WriteLine("A.MethodB()"); }
-}
-
-class B : IMyInterface
-{
-    public void MethodB() { Console.WriteLine("B.MethodB()"); }
-    public void MethodA(int i) { Console.WriteLine("B.MethodA(int i)"); }
-}
-
-class C : IMyInterface
-{
-    public void MethodB() { Console.WriteLine("C.MethodB()"); }
-    public void MethodA(object obj)
-    {
-        Console.WriteLine("C.MethodA(object obj)");
-    }
-}
 
